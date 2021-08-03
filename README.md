@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# React Hooks in 5 Minutes
+This repo contains commits for all the steps found in the [React Hooks in 5 Minutes](https://www.freecodecamp.org/news/react-hooks-in-5-minutes/) tutorial from freecodecamp.org. View the [commit history](https://github.com/chuckwired/react-in-5-minutes/commits/master) to see each step of the tutorial.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
