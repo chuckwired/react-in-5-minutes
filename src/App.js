@@ -13,8 +13,8 @@ function App() {
 
   // useEffect will run every time the component re-renders
   useEffect(() => {
-    setColor(randomcolor())
-  });
+    setColor(randomcolor());
+  }, [count]); // only re-render if the count changes
 
   return (
     <div>
