@@ -1,5 +1,6 @@
+import { useState, useEffect } from 'react';
+
 import './App.css';
-import { useState } from 'react';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -7,6 +8,10 @@ function App() {
   const change = () => {
     setCount(prevCount => prevCount + 1);
   }
+
+  useEffect(() => {
+    /* any update can happen here */
+  });
 
   return (
     <div>
